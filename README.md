@@ -139,6 +139,59 @@ Explorar modelos de machine learning online para que os pesos da prioridade seja
 ### Integração com a UI e acessibilidade:
 Incorporar a lógica de priorização na interface de operação, com destaque visual para pedidos mais críticos e aderência a boas práticas de acessibilidade.
 
+## Comandos Git para enviar ao GitHub
+
+Para enviar este projeto para o GitHub, execute os seguintes comandos:
+
+```bash
+# Verificar status do repositório
+git status
+
+# Adicionar todos os arquivos ao staging
+git add .
+
+# Fazer commit das mudanças
+git commit -m "Projeto completo Ada Tech Desenvolva - Marketplace Priority Sorter"
+
+# Enviar para o GitHub
+git push origin main
+```
+
+### Comandos Git úteis para o projeto:
+
+```bash
+# Verificar histórico de commits
+git log --oneline
+
+# Verificar diferenças antes do commit
+git diff
+
+# Verificar status dos arquivos
+git status
+
+# Criar uma nova branch para desenvolvimento
+git branch nova-funcionalidade
+git switch nova-funcionalidade
+
+# Voltar para a branch principal
+git switch main
+
+# Fazer merge de uma branch
+git merge nova-funcionalidade
+
+# Baixar atualizações do repositório remoto
+git pull origin main
+```
+
+### Estrutura do repositório:
+```
+Marketplace-Priority-Sorter/
+├── README.md
+├── .gitignore
+└── docs/
+    └── (documentação adicional)
+```
+
 ---
 
 ## Autor
